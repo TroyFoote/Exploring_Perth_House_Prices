@@ -29,26 +29,21 @@ Then using Tableau create visualisations from the dataset.
     * Split Data into X and y vaiables.
     * Review the X and y variables.
     * Split Data into Training and Test datasets.
-<br>
-
-3. Create a Linear Regression Model with Training and Test Data
-<br>
-
-4. Print out the Results showing the score, R2 value, MSE value, RMSE and Std Dev values.
-<br>
-
-5. Produce a scatter plot of the results.
-<br>
-
-6. Repeat steps 3 - 5 but this time create a Decision Tree Regressor Model.
-
+    * Create a Linear Regression Model with Training and Test Data
+    * Print out the Results showing the score, R2 value, MSE value, RMSE and Std Dev values.
+    * Produce a scatter plot of the results.
+    * Repeat steps 3 - 5 but this time create a Decision Tree Regressor Model.
     * Create a StandardScaler for this model.
+    * Again repeat steps 3 - 5, this time create a Random Forest Regressor Model.
+    * Compare the 3 models to find the best model to predict property values.
 <br>
 
-7.  Again repeat steps 3 - 5, this time create a Random Forest Regressor Model.
-<br>
+3. Tableau Visualisations
 
-8. Compare the 3 models to find the best model to predict property values.
+    * Use the *all_perth_310121.csv* to design several visualisations. 
+    * Create a dashboard of your findings.
+
+
 
 ### Dependencies
 
