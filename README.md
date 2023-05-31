@@ -1,5 +1,7 @@
 # Exploring Perth House Prices and Predicting Property Values
 
+![Suburbs](Images/suburb.jpg)
+
 ## Objective: 
 
 The objective of this project is to create a Machine Learning Model that will successfully predict house prices.
@@ -13,7 +15,6 @@ The objective of this project is to create a Machine Learning Model that will su
 ### 1. Data Cleaning and PreProcessing.
 
     * Read in the all_perth_310121.csv Dataset found via Kaggle website.
-    <br>
 
     * Check the Datatypes and for any null values.
         * GARAGE, BUILD_YEAR and NEAREST_SCH_RANK all presented with Null values. 
@@ -37,20 +38,22 @@ The objective of this project is to create a Machine Learning Model that will su
 
     * Split Data into X and y vaiables.
         * PRICES will be used as the y_value or target value
-    <br>
+
 ### 3. Create Machine Learning Models
     * Review the X and y variables.
     * Split Data into Training and Test datasets.
-    <br>
+
 
 #### Model 1 - Create a Linear Regression Model 
 
 ![Linear Regression Model](Images/Linear_Model.png)
 
 The Results below show the score, R2 value, MSE value, RMSE and Std Dev values.
+
 ![Linear Regression Score](Images/Linear_Score.png)
 
 A scatter plot of the results was created.
+
 ![Linear Regression ScatterPlot](Images/LR_ScatterPlot.png)
     
 #### Model 2 - Create a Decision Tree Regression Model with a Standard Scaler.
@@ -58,9 +61,11 @@ A scatter plot of the results was created.
 ![Decision Tree Regression Model](Images/Decision_Tree_Model.png)
     
 The Results below show the score, R2 value, MSE value, RMSE and Std Dev values.
+
 ![Decision Tree Regression Score](Images/Decision_Tree_Score.png)
 
 A scatter plot of the results was created.
+
 ![Decision Tree Regression ScatterPlot](Images/DT_ScatterPlot.png)
     
     
@@ -69,9 +74,11 @@ A scatter plot of the results was created.
 ![Random Forest Regression Model](Images/Random_Forest_Model.png)
     
 The Results below show the score, R2 value, MSE value, RMSE and Std Dev values.
+
 ![Random Forest Regression Score](Images/Random_Forest_Score.png)
 
 A scatter plot of the results was created.
+
 ![Random Forest Regression ScatterPlot](Images/RF_ScatterPlot.png)
 
 ### Summary 
@@ -84,8 +91,6 @@ While this is an acceptable score some further training would be required in to 
 * Possibly removing further columns such as the Date columns. 
 * Gathering more data, if feasible, can also enhance the model's performance.
 * Experimenting with the parameters of both the Decision Tree Model and the Random Forest Model.
-
-
 <br>
 
 ### 4. Tableau Visualisations
@@ -101,7 +106,7 @@ While this is an acceptable score some further training would be required in to 
         * Top 10 nearest school count on a horizontal bar chart.
         * Top 10 nearest station count on a horizontal bar chart.  
     * A dashboard was created to represent all charts.
-    <br>
+
 
     The Link to my Tableau Public site.
     https://public.tableau.com/app/profile/troy.foote/viz/EXploring_Perth_House_Prices/Dashboard1?publish=yes
